@@ -6,38 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7d24bb24b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
-
     <title>Nicholas Burness | Web Developer</title>
 </head>
 
 <body>
 
-    <header>
+    <header id="header">
         <nav>
             <ul>
-                <li><a>About</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Services</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section id="about">
+            <h3>About Me</h3>
+            <div class="aboutContainer">
+                <p>
+                    I am a self taught full stack developer in the UK. I started learning to code in 2019 and through
+                    many of hours of study,
+                    I found myself coding full time as an apprentice developer for the UK's Department for Education.
+                    Where I practice C#, JavaScript and other programming languages
+                    daily, by developing new applications and maintaining existing software that huge numbers of people
+                    rely on each academic year.
+                </p>
+                <p>
+                    My background is generally deeply rooted to serving the public already. My early career seen me
+                    operate in a variety
+                    of roles. I have supported farmers accross the whole of the UK supporting the Department for
+                    Environment, Food and Rural Affairs. Serving as a Border Force Officer at the UKs busiest airport,
+                    And even managing a team from
+                    Gibraltar where I was responsbile for the safe repatriation of UK citizens during a national crisis.
+                </p>
+                <p>
+                    I love making a difference and the web and software in general provides a great way for me to impact
+                    the world.
+                </p>
+                <p>
+                    I am also very proud of my time spent coaching others as a mentor at a coding
+                    school, Recode. Teaching ambitious individuals the fundamentals of HTML and CSS.
+                </p>
+                <p>
+                    In my downtime you can usually find me working on a project or relaxing with my pets and playing
+                    video games.
+                </p>
+                <p>
+                    I invite you to explore my projects, GitHub and connect with me on social media.
+                </p>
+                <p>If you are interested in working on something together, please do not hesitate at all to contact me.
+                </p>
+            </div>
+        </section>
 
+        <section id="projects">
+            <h3>Projects</h3>
+            <h4>Tags</h4>
+            <div class="tagContainer">
+                <span id="tag">#PersonalProject</span>
+                <span id="tag">#NodeJS</span>
+                <span id="tag">#DiscordJS</span>
+                <span id="tag">#HTML5</span>
+                <span id="tag">#Sass</span>
+                <span id="tag">#JavaScript</span>
+                <span id="tag">#MongoDB</span>
+                <span id="tag">#Express</span>
+            </div>
+
+            <div class="projectContainer">
+
+                <div class="projectCard">
+                    <h4>Apollo</h4>
+                    <i class="fab fa-github"><a></a></i>
+                    <div class="tagContainer">
+                        <span id="tag">#PersonalProject</span>
+                        <span id="tag">#NodeJS</span>
+                        <span id="tag">#DiscordJS</span>
+                    </div>
+                    <img src="./images/Apollo.jpg" />
+                </div>
+                <div class="projectCard">
+                    <h4>Avenue</h4>
+                    <i class="fab fa-github"><a></a></i>
+                    <div class="tagContainer">
+                        <span id="tag">#PersonalProject</span>
+                        <span id="tag">#HTML5</span>
+                        <span id="tag">#Sass</span>
+                        <span id="tag">#JavaScript</span>
+                    </div>
+                    <img src="./images/Apollo.jpg" />
+                </div>
+
+                <div class="projectCard">
+                    <h4>Animal Archives</h4>
+                    <i class="fab fa-github"><a></a></i>
+                    <div class="tagContainer">
+                        <span id="tag">#PersonalProject</span>
+                        <span id="tag">#MongoDB</span>
+                        <span id="tag">#Express</span>
+                        <span id="tag">#NodeJS</span>
+
+                    </div>
+                    <img src="./images/AnimalArchives.jpg" />
+                </div>
+
+            </div>
+        </section>
+
+        <section id="services">
+            <h3>Services</h3>
+            <ul>
+                <li>
+                    Web Development
+                </li>
+                <li>
+                    SEO & Accessibility enhancements
+                </li>
+                <li>
+                    Coaching
+                </li>
+            </ul>
+        </section>
     </main>
 
-    <footer>
+    <footer id="contact">
+        <h3>Reach out</h3>
         <div>
             <i class="socialMediaIcon fab fa-linkedin"><a href=""></a></i>
             <i class="socialMediaIcon fab fa-twitter"><a href=""></a></i>
             <i class="socialMediaIcon fas fa-envelope"><a href=""></a></i>
-
-            <h6>Made With <span class="fas fa-heart"></span></h6>
         </div>
+        <h6>Made With <span class="fas fa-heart"></span> by me!</h6>
     </footer>
 </body>
 
-<script src="scripts.js" type="text/javascript"></script>
+<script src="scripts.js" defer></script>
 
 </html>

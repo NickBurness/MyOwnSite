@@ -1,1 +1,169 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v12/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*
+font-family: 'Open Sans', sans-serif; 
+font-family: 'Roboto Slab', serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  display: block;
+  padding: .5em .5em .5em 0;
+  text-align: justify;
+  line-height: 1em;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse nowrap;
+          flex-flow: row-reverse nowrap;
+  background-color: #333;
+  width: 100%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+header nav ul li {
+  padding: 1em;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #d8d8d8;
+}
+
+header nav ul a:hover {
+  color: #fff;
+}
+
+section::before {
+  content: "";
+  width: 100%;
+  border-top: 5px solid #333;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+.projectContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.projectContainer .projectCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #333;
+  margin: 1em;
+}
+
+.projectContainer .projectCard i {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.projectContainer .projectCard .projectCard * {
+  padding: 1em;
+}
+
+.projectContainer .projectCard img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto;
+  width: 400px;
+}
+
+.tagContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  max-width: 75%;
+}
+
+#tag {
+  font-family: "Roboto Slab", serif;
+  background-color: #333;
+  color: #fff;
+  padding: 0.1em;
+  margin: 0.1em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+main section {
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+footer span {
+  color: red;
+}
+
+footer h6 {
+  font-size: 1em;
+  width: 100%;
+  color: #d8d8d8;
+  background-color: #333;
+  margin-top: 1em;
+  padding: .25em;
+}
+
+.socialMediaIcon {
+  font-size: 2.5em;
+}
+/*# sourceMappingURL=styles.css.map */
