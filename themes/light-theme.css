@@ -1,0 +1,30 @@
+.fa-sun {
+  display: none;
+}
+
+.fa-moon {
+  color: grey;
+}
+
+header {
+  color: #fff;
+}
+
+nav {
+  background-color: #389fff;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.titles h1,
+.titles h2 {
+  color: #333;
+}
+/*# sourceMappingURL=light-theme.css.map */

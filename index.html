@@ -4,15 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="https://kit.fontawesome.com/7d24bb24b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="./themes/dark-theme.css" id="theme-sheets">
+
     <title>Nicholas Burness | Web Developer</title>
 </head>
 
-<body>
+<body class="dark" id="themeTarget">
 
-    <header id="header">
-        <nav>
+    <header class="header" id="header">
+
+
+        <nav class="nav" id="nav">
+
+            <button id="lightswitch" onclick="changeTheme()">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+            
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -20,8 +31,20 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <div class="titles">
+            <h1>Nicholas Burness</h1>
+            <h2>Full Stack Developer</h2>
+        </div>
     </header>
 
+
+
+
+
+
+
+    <!--
     <main>
         <section id="about">
             <h3>About Me</h3>
@@ -139,8 +162,9 @@
             <i class="socialMediaIcon fab fa-twitter"><a href=""></a></i>
             <i class="socialMediaIcon fas fa-envelope"><a href=""></a></i>
         </div>
-        <h6>Made With <span class="fas fa-heart"></span> by me!</h6>
+        <span>Made With <span class="fas fa-heart"></span> by me!</span>
     </footer>
+    -->
 </body>
 
 <script src="scripts.js" defer></script>
